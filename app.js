@@ -83,10 +83,11 @@ return c
 
 //checks if any player Won
 const checkWin=(i,player)=>{
-    let c1,c2,c3
+    let c1,c2,c3,c4
     c1=checkCombo(i,1,player,1,true)
     c2=checkCombo(i,1,player,7)
     c3=checkCombo(i,1,player,6)
+    c4=checkCombo(i,1,player,8)
     if(c1==4||c2==4||c3==4){
         DOMresult.textContent=`Player ${player} wins!`
         DOMresult.style.display="block"
