@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Connect-4
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h2>The current player is: player <span id="current-player"></span></h2>
+        <div id="dot"></div>
+        <h2 id="result">Player one wins!</h2>
+        <div class="grid">
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>
+        <div class="sq"></div>  
+        </div>
+        <button onclick="showGrid()">Show Grid</button>
+        <button onclick="hideGrid()">Hide Grid</button>
+        <button onclick="init()" id="newgamebut">New Game</button>
+        
+        <div>
+        <h4>
+          ## Rules of Connect Four
+        </h4>
+        <ul>
+            <li>
+         You will start as player One
+            </li>
+            <li>
+         You will take your go as player One
+            </li>
+            <li>
+         You will not be allowed to go in circles that are not at the bottom of the grid, or do not have a taken circle under it
+            </li>
+            <li>
+         Once your go is taken and you did not win, It will be player Two's go
+            </li>
+            <li>
+         The gamer will continue until a winning combination of four is reached by player One or player Two, or until the grid is full and no winning combination was found.
+            </li>
+        </ul>
+        </div>
+
+
+
+
+
+        <br><br><br>
+        <footer>Copyright 2021 by papnai_dev</footer>
+        <script src="app.js"></script>
+    </body>
+</html>
