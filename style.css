@@ -36,4 +36,6 @@ border: 2px solid black;
     border-radius: 100%;
 }
 
-box-shadow:0px 0px 0px 10px black inset;
+footer{
+    margin-top:8%;
+}
